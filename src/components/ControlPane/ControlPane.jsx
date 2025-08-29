@@ -21,7 +21,6 @@ const ControlPane = ({
           {options.length} options
         </span>
       </h2>
-      <div className={styles.buttonRow}>
 
       <ButtonRow >
         {options.map(({ id, label, color, children }) => (
@@ -37,7 +36,6 @@ const ControlPane = ({
         ))}
       </ButtonRow>
       </div>
-    </div>
   );
 };
 
